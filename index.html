@@ -18,36 +18,40 @@
     <link rel="stylesheet" href="./css/main.min.css" />
   </head>
   <body>
-    <header class="header-section">
-      <div class="container header-box">
-        <nav class="header-nav">
-          <a href="#" class="header-logo link"
-            ><span class="accent">Web</span>Studio</a
+    <header class="header">
+      <div class="container header__box">
+        <nav class="navigation">
+          <a href="#" class="logo logo--inverse link"
+            ><span class="logo__accent">Web</span>Studio</a
           >
-          <ul class="site-nav">
-            <li class="item-nav">
-              <a href="#" class="header-link link current">Студія</a>
+          <ul class="navigation__list">
+            <li class="navigation__item">
+              <a href="#" class="navigation__link navigation__link--active link"
+                >Студія</a
+              >
             </li>
-            <li class="item-nav">
-              <a href="./portfolio.html" class="header-link link">Портфоліо</a>
+            <li class="navigation__item">
+              <a href="./portfolio.html" class="navigation__link link"
+                >Портфоліо</a
+              >
             </li>
-            <li class="item-nav">
-              <a href="#" class="header-link link">Контакти</a>
+            <li class="navigation__item">
+              <a href="#" class="navigation__link link">Контакти</a>
             </li>
           </ul>
         </nav>
-        <ul class="auth-nav">
-          <li class="item-auth">
-            <a href="mailto:info@devstudio.com" class="heager-mail link">
-              <svg width="16" height="12" class="mail-icon">
+        <ul class="auth-nav header__auth-nav">
+          <li class="auth-nav__item">
+            <a href="mailto:info@devstudio.com" class="auth-nav__mail link">
+              <svg width="16" height="12" class="auth-nav__icon">
                 <use href="./images/icons.svg#icon-envelope"></use>
               </svg>
               info@devstudio.com</a
             >
           </li>
-          <li class="item-auth">
-            <a href="tel:+380961111111" class="header-tel link">
-              <svg width="10" height="16" class="tel-icon">
+          <li class="auth-nav__item">
+            <a href="tel:+380961111111" class="auth-nav__tel link">
+              <svg width="10" height="16" class="auth-nav__icon">
                 <use href="./images/icons.svg#icon-Vector"></use>
               </svg>
               +38 096 111 11 11</a
@@ -386,62 +390,64 @@
         </div>
       </section>
     </main>
-    <footer class="page-footer">
-      <div class="container footer-position">
-        <div class="footer-nav">
-          <a href="#" class="footer-logo link"
-            ><span class="accent">Web</span>Studio</a
+    <footer class="footer">
+      <div class="container footer__box">
+        <div class="nav footer__section">
+          <a href="#" class="logo link"
+            ><span class="logo__accent">Web</span>Studio</a
           >
-          <address class="footer-info">
-            <ul class="list-address">
+          <address class="address footer__address">
+            <ul class="address__list">
               <li>
                 <a
                   href="https://goo.gl/maps/q8VHC99o34qYa7t8A"
                   target="_blank"
-                  class="footer-address link"
+                  class="address__post link"
                   >м. Київ, пр-т Лесі Українки, 26</a
                 >
               </li>
               <li>
-                <a href="mailto:info@devstudio.com" class="footer-mail link"
+                <a
+                  href="mailto:info@devstudio.com"
+                  class="address__contacts link"
                   >info@devstudio.com</a
                 >
               </li>
               <li>
-                <a href="tel:+380961111111" class="footer-tel link"
+                <a href="tel:+380961111111" class="address__contacts link"
                   >+38 096 111 11 11</a
                 >
               </li>
             </ul>
           </address>
         </div>
-        <div class="footer-soc">
-          <p class="footer-text">приєднуйтесь</p>
-          <ul class="footer-soc-list">
-            <li class="soc-item">
-              <a href="#" class="footer-soc-link link">
-                <svg width="20" height="20" class="soc-icons">
+        <div class="social">
+          <p class="social__text">приєднуйтесь</p>
+          <ul class="social__list">
+            <li class="social__item">
+              <a href="#" class="social__link link">
+                <svg width="20" height="20" class="social__icon">
                   <use href="./images/icons.svg#icon-instagram"></use>
                 </svg>
               </a>
             </li>
-            <li class="soc-item">
-              <a href="#" class="footer-soc-link link">
-                <svg width="20" height="20" class="soc-icons">
+            <li class="social__item">
+              <a href="#" class="social__link link">
+                <svg width="20" height="20" class="social__icon">
                   <use href="./images/icons.svg#icon-twitter"></use>
                 </svg>
               </a>
             </li>
-            <li class="soc-item">
-              <a href="#" class="footer-soc-link link">
-                <svg width="20" height="20" class="soc-icons">
+            <li class="social__item">
+              <a href="#" class="social__link link">
+                <svg width="20" height="20" class="social__icon">
                   <use href="./images/icons.svg#icon-facebook"></use>
                 </svg>
               </a>
             </li>
-            <li class="soc-item">
-              <a href="#" class="footer-soc-link link">
-                <svg width="20" height="20" class="soc-icons">
+            <li class="social__item">
+              <a href="#" class="social__link link">
+                <svg width="20" height="20" class="social__icon">
                   <use href="./images/icons.svg#icon-linkedin"></use>
                 </svg>
               </a>

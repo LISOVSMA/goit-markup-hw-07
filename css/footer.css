@@ -1,0 +1,22 @@
+.footer {
+  padding: 60px 0px;
+  background-color: var(--secondary-background-color);
+}
+
+.footer__box {
+  display: flex;
+  align-items: baseline;
+}
+
+.nav {
+  display: inline-block;
+  margin-right: 70px;
+}
+
+.footer-logo {
+  font-family: "Raleway", sans-serif;
+  color: var(--secondary-text-color);
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}/*# sourceMappingURL=footer.css.map */
