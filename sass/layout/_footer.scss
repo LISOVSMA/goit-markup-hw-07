@@ -32,6 +32,10 @@
     color: var(--secondary-text-color);
     @include font(400, 14px, 24px, 0.03em);
     transition: color 250ms var(--timing-function);
+    &:hover,
+    &:focus {
+      color: var(--accent-color);
+    }
   }
   &__contacts {
     display: block;
@@ -39,12 +43,10 @@
     color: var(--transparent-color);
     @include font(400, 14px, 24px, 0.03em);
     transition: color 250ms var(--timing-function);
-  }
-  &__post:hover,
-  &__post:focus,
-  &__contacts:hover,
-  &__contacts:focus {
-    color: var(--accent-color);
+    &:hover,
+    &:focus {
+      color: var(--accent-color);
+    }
   }
 }
 
@@ -72,17 +74,24 @@
     color: rgba(255, 255, 255, 0.6);
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
     transition: border-color 250ms var(--timing-function);
+    &:hover,
+    &:focus {
+      outline: none;
+      border-color: var(--accent-color);
+    }
+
+    &::placeholder {
+      @include font(400, 16px, 20px, 0.03em);
+      color: rgba(255, 255, 255, 0.6);
+    }
   }
 
-  &__input:hover,
-  &__input:focus {
-    outline: none;
-    border-color: var(--accent-color);
-  }
-
-  &__input::placeholder {
-    @include font(400, 16px, 20px, 0.03em);
-    color: rgba(255, 255, 255, 0.6);
+  &__button {
+    @include flex-align-justify;
+    margin-left: 12px;
+    padding: 0;
+    width: 200px;
+    height: 50px;
   }
 
   &__item {

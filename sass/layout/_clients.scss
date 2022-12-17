@@ -4,10 +4,9 @@
   &__item {
     width: 170px;
     height: 92px;
-  }
-
-  &__item:not(:last-child) {
-    margin-right: 30px;
+    &:not(:last-child) {
+      margin-right: 30px;
+    }
   }
 
   &__link {
@@ -19,11 +18,10 @@
     border-radius: 4px;
     transition: fill 250ms var(--timing-function),
       border-color 250ms var(--timing-function);
-  }
-
-  &__link:hover,
-  &__link:focus {
-    fill: var(--accent-color);
-    border-color: var(--accent-color);
+    &:hover,
+    &:focus {
+      fill: var(--accent-color);
+      border-color: var(--accent-color);
+    }
   }
 }

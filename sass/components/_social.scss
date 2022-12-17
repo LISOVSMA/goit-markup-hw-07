@@ -4,10 +4,9 @@
   &__item {
     width: 44px;
     height: 44px;
-  }
-
-  &__item:not(:last-child) {
-    margin-right: 10px;
+    &:not(:last-child) {
+      margin-right: 10px;
+    }
   }
 
   &__link {
@@ -18,17 +17,15 @@
     color: var(--icon-color);
     transition: background-color 250ms var(--timing-function),
       color 250ms var(--timing-function);
-  }
-
-  &__link--inverse {
-    background-color: var(--bg-icon-color);
-    color: var(--secondary-text-color);
-  }
-
-  &__link:hover,
-  &__link:focus {
-    background-color: var(--accent-color);
-    color: var(--secondary-text-color);
+    &--inverse {
+      background-color: var(--bg-icon-color);
+      color: var(--secondary-text-color);
+    }
+    &:hover,
+    &:focus {
+      background-color: var(--accent-color);
+      color: var(--secondary-text-color);
+    }
   }
 
   &__icon {
