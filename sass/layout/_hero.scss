@@ -14,7 +14,7 @@
   background-color: var(--secondary-background-color);
 
   &__title {
-    margin-bottom: var(--card-set-gap);
+    margin-bottom: 30px;
     @include font(900, 44px, 60px, 0.06em);
     text-transform: uppercase;
     color: var(--secondary-text-color);
