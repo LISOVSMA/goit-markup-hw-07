@@ -273,7 +273,7 @@ img {
   background-color: var(--secondary-background-color);
 }
 .hero__title {
-  margin-bottom: var(--card-set-gap);
+  margin-bottom: 30px;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.3636363636;
